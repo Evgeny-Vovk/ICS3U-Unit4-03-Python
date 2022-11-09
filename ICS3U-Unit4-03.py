@@ -11,7 +11,7 @@ import math
 def main():
 
     # input and variables
-    input_number = input("Input a positive number: ")
+    input_number = input("Input a positive integer: ")
 
     # process and output
     print("")
