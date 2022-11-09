@@ -18,7 +18,7 @@ def main():
     try:
         input_number_asint = int(input_number)
         if input_number_asint < 0:
-            print("This is not a positive number.")
+            print("This is not a positive integer.")
         else:
             for counter in range(input_number_asint + 1):
                 print("{0}² = {1:,.0f}".format(counter, math.pow(counter, 2)))
